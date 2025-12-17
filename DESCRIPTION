@@ -1,0 +1,19 @@
+Package: BreastCancerXGB
+Title: Breast Cancer Diagnosis Prediction Using XGBoost
+Version: 0.1.0
+Authors@R: 
+    person("Yining", "Qiu", email = "Qul098@outlook.com", 
+           role = c("aut", "cre"))
+Description: Predicts breast cancer diagnosis (benign or malignant) 
+    using a pre-trained XGBoost model based on cell features from the 
+    Wisconsin Breast Cancer Dataset.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Imports: 
+    xgboost (>= 1.7.5)
+Suggests: 
+    testthat (>= 3.0.0),
+    knitr,
+    rmarkdown
+RoxygenNote: 7.2.3
