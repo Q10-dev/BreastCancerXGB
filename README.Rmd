@@ -1,6 +1,8 @@
 ---
 title: "BreastCancerXGB"
-output: rmarkdown::html_document
+output: 
+  rmarkdown::html_document
+    encoding: "UTF-8"
 ---
 
 
